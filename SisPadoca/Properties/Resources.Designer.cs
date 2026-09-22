@@ -63,9 +63,39 @@ namespace SisPadoca.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap homempao {
+            get {
+                object obj = ResourceManager.GetObject("homempao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap padoca {
             get {
                 object obj = ResourceManager.GetObject("padoca", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pao {
+            get {
+                object obj = ResourceManager.GetObject("pao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap paoana {
+            get {
+                object obj = ResourceManager.GetObject("paoana", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
